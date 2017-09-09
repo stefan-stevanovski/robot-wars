@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="RobotResources.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotWars.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotWarsStd.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RobotController.h">
+      <Filter>RobotWars</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RobotEvents.h">
+      <Filter>RobotWars</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RobotWarsNetwork.h">
+      <Filter>RobotWars</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RobotWarsView.h">
+      <Filter>RobotWars</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{07571a94-ffad-4192-84ee-6e22a66744a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RobotWars">
+      <UniqueIdentifier>{09e969fd-62b9-4ebd-b2cc-a7d4e06dc2a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RobotWarsStd.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RobotController.cpp">
+      <Filter>RobotWars</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RobotEvents.cpp">
+      <Filter>RobotWars</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RobotWars.cpp">
+      <Filter>RobotWars</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RobotWarsView.cpp">
+      <Filter>RobotWars</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RobotWars.rc">
+      <Filter>Application</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
